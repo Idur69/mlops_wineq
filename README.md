@@ -70,3 +70,11 @@ pip install -e .
 build your own package commands-
 
 python setup.py sdist
+
+git init
+git add . && git commit -m "webapp created && tested" git push origin main
+
+############ Deploy on heroku ################
+1 mkdir .github\workflows\
+2 touch .github\workflows\ci-cd.yaml
+3 git add . && git commit -m "github work flow added" && git push origin main
