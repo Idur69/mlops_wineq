@@ -1,2 +1,11 @@
+# localpackage install
+-e .
 pip install dvc
 pip install dvc[gdrive]
+sklearn
+pandas
+pytest
+tox
+flake8
+flask
+gunicorn

@@ -22,3 +22,51 @@ dvc add data_given/winequality.csv
 git add .
 
 git commit -m "first commit"
+
+#python src/get_data.py
+#run dvc repro
+# git add . and commit -m "stage one a"
+#run dvc repro
+# git add . and commit -m "stage two"
+# run dvc metrics show
+# run dvc metrics diff
+#run dvc repro
+# git add . and commit -m "tracker added"
+
+# run  pytest -v
+# run tox
+# run tox
+pip insall -e .
+tox  command :
+bash
+for rebuilding .
+tox -r
+pytest command:
+pytest -v
+setup command:
+pip install -e .
+(pep8
+flacke8)
+
+
+build your own packages commands:
+python setup.py install
+
+tox command -
+
+tox
+for rebuilding -
+
+tox -r
+pytest command
+
+pytest -v
+setup commands -
+
+dEPLOY:
+1. mkdir .github\workflows\cli
+
+pip install -e .
+build your own package commands-
+
+python setup.py sdist
