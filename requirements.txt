@@ -1,7 +1,9 @@
-# localpackage install
+# local package install
 -e .
-pip install dvc
-pip install dvc[gdrive]
+
+# third party packages
+dvc
+dvc[gdrive]
 sklearn
 pandas
 pytest
