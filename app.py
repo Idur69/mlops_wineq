@@ -3,6 +3,7 @@ import os
 import yaml
 import joblib
 import numpy as np
+from app import app
 
 params_path = 'params.yaml'
 webapp_root = 'webapp'
