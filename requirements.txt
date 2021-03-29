@@ -11,4 +11,3 @@ tox
 flake8
 flask
 gunicorn
-yaml
